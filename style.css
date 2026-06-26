@@ -1,0 +1,123 @@
+body {
+    /* Використовуємо системний шрифт, схожий на детективні серіали */
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    font-size: 20px; /* Збільшений загальний шрифт */
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Оформлення Хедера */
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 45px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #ff0000; /* Червоний акцент Декстера */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Оформлення Hero Block */
+.hero {
+    padding: 150px 20px;
+    /* Затемнення фону через градієнт, щоб текст було видно */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/736x/2f/76/a8/2f76a87aae1d4c4050a58cf9ec14ded4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white; /* Білий текст на темному фоні */
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.9);
+}
+
+.herot {
+    max-width: 800px;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+/* Основний контент */
+main {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 35px;
+    border-left: 5px solid #ff0000;
+    padding-left: 15px;
+    margin-top: 40px;
+}
+
+/* Стиль списку */
+.rating-list {
+    list-style: none;
+    padding: 0;
+}
+
+.rating-list li {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.rating-list strong {
+    color: #ff0000;
+}
+
+/* Галерея картинок */
+.gallery {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.gallery img {
+    border: 3px solid #000;
+    height: auto;
+    width: 300px;
+    transition: transform 0.3s;
+}
+
+
+/* Футер */
+footer {
+    padding: 40px;
+    background-color: #1a1a1a;
+    color: #888;
+    text-align: center;
+    font-size: 16px;
+    border-top: 4px solid #ff0000;
+}
