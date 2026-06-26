@@ -38,7 +38,7 @@ nav a {
 .hero {
     padding: 150px 20px;
     /* Затемнення фону через градієнт, щоб текст було видно */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/736x/2f/76/a8/2f76a87aae1d4c4050a58cf9ec14ded4.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/Hlib3.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
